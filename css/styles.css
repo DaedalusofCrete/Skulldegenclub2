@@ -1,77 +1,95 @@
-body{
+body {
   background-color: #dcdcdc;
+  margin: 0;
 }
 
 button {
   margin: 3rem 0 0 10rem;
 }
 
-h3{
+h3 {
   color: #e0ddcf;
   font-weight: bold;
 }
-/* Navbar */
 
-.nav-item{
-  padding:0 1%;
+/* Navbar */
+.nav-item {
+  padding: 0 1%;
 }
 
 /* Title Section */
-
-#title-section{
+#title-section {
   background-color: black;
 }
 
-.title-item{
+.title-item {
   padding: 10% 5%;
 }
 
-.skull-mountain{
+.skull-mountain {
   width: 100%;
   padding: 15% 5% 0 0;
 }
-.title-header{
+
+.title-header {
   font-family: 'MedievalSharp', cursive;
   color: #fff;
   font-weight: bold;
   font-size: 5rem;
-  text-align:center;
+  text-align: center;
   margin-bottom: 2rem
 }
-.title-paragraph{
+
+.title-paragraph {
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
-  color:#dcdcdc;
+  color: #dcdcdc;
   font-size: 2rem;
 }
-.discord-button{
+
+.discord-button {
   font-family: 'MedievalSharp', cursive;
   margin: 3rem 0 0 10rem;
 }
-.discord-button:hover{
-  color: #7f0704;
 
+.discord-button:hover {
+  color: #7f0704;
 }
 
 /* Attributes */
-
-#attributes{
+#attributes {
   background-color: #400106;
-  padding:7% 10%;
+  padding: 7% 10%;
 }
-.attribute-text{
+
+.attribute-text {
   color: #dcdcdc;
   text-align: center;
   padding: 5%;
 }
-.attribute-discription{
-  color:#474448;
-}
-.attribute-icon{
-  color:white;
-  margin-bottom:1rem;
+
+.attribute-discription {
+  color: #474448;
 }
 
-.attribute-icon:hover{
+.attribute-icon {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.attribute-icon:hover {
   color: #015154
+}
+
+/* Copyright */
+#copyright {
+  color: #fff;
+  padding-top: 2%;
+  background-color: #2a0b0b;
+}
+
+.copyright {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  text-align: center;
 }
