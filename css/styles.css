@@ -123,11 +123,33 @@ h2 {
   font-weight: bold;
   font-size: 5rem;
   font-family: 'Splash', cursive;
-  padding: 5% 10%;
+  padding: 5% 10% 0 10%;
+}
+
+.deadlus-title-block {
+  text-align: center;
 }
 
 .daedalus-title:hover {
   color: #000;
+}
+
+.daedalus-twitter {
+  font-size: .75rem;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 0;
+}
+
+.daedalus-twitter:hover {
+  color: #000;
+}
+
+.daedalus-twitter:link {
+  color: #1e1c1d;
+}
+
+.daedalus-twitter:visited {
+  color: grey;
 }
 
 #daedalus-artist {
@@ -139,7 +161,7 @@ h2 {
   color: #fff;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
-  padding: 0 5%;
+  padding: 5% 5%;
   margin: auto 10%;
 }
 
