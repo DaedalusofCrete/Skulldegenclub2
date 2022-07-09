@@ -118,6 +118,7 @@ h2 {
   padding: 0 5% 2%;
 }
 
+/* Daedalus section */
 .daedalus-title {
   color: #a80311;
   font-weight: bold;
@@ -172,4 +173,130 @@ h2 {
 .deadlus-art {
   width: 50%;
   padding: 10% 0;
+}
+
+.carousel-button {
+  margin: 0 auto;
+}
+
+/* ENKY section */
+.enky-title {
+  color: #3e07b5;
+  font-weight: bold;
+  font-size: 5rem;
+  font-family: 'Rubik Moonrocks', cursive;
+  padding: 5% 10% 0 10%;
+}
+
+.enky-title-block {
+  text-align: center;
+}
+
+.enky-title:hover {
+  color: #a80311;
+}
+
+.enky-twitter {
+  font-size: .75rem;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 0;
+}
+
+.enky-twitter:hover {
+  color: #a80311;
+}
+
+.enky-twitter:link {
+  color: #1e1c1d;
+}
+
+.enky-twitter:visited {
+  color: grey;
+}
+
+#enky-artist {
+  background-color: #000;
+}
+
+.artist-description {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 5% 5%;
+  margin: auto 10%;
+}
+
+.enky-row {
+  text-align: center;
+}
+
+.enky-art {
+  width: 50%;
+  padding: 10% 0;
+}
+
+.carousel-button {
+  margin: 0 auto;
+}
+
+/* David section */
+.david-title {
+  color: #a80311;
+  font-weight: bold;
+  font-size: 5rem;
+  font-family: 'The Nautigal', cursive;
+  padding: 5% 10% 0 10%;
+}
+
+.david-title-block {
+  text-align: center;
+}
+
+.david-title:hover {
+  color: #000;
+}
+
+.david-twitter {
+  font-size: .75rem;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 0;
+}
+
+.david-twitter:hover {
+  color: #a80311;
+}
+
+.david-twitter:link {
+  color: #1e1c1d;
+}
+
+.david-twitter:visited {
+  color: grey;
+}
+
+#david-artist {
+  background-color: #383f48;
+}
+
+.david-description {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 5% 5%;
+  margin: auto 10%;
+}
+
+.david-row {
+  text-align: center;
+}
+
+.david-art {
+  width: 50%;
+  padding: 20% 0 0 0
+}
+
+.carousel-button {
+  margin: 0 auto;
 }
