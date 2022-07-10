@@ -362,31 +362,29 @@ h2 {
   margin: 0 auto;
 }
 
-
 /* Tezos-Links-Section */
-
-#tezos-links{
+#tezos-links {
   background-color: #383f48;
 }
 
-.spicyswap-header{
-color: #dcdcdc;
+.spicyswap-header {
+  color: #dcdcdc;
 }
 
-.img-container{
+.img-container {
   position: relative;
   left: 10%;
 }
 
-.skull4nft-img{
-width: 60%;
-padding: 5% 0 10% 0;
-border-radius: 100%;
+.skull4nft-img {
+  width: 60%;
+  padding: 5% 0 10% 0;
+  border-radius: 100%;
 }
 
-.spicyswap-description{
+.spicyswap-description {
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
-padding: 10% 5% 10% 5%;
-color: #e0ddcf;
+  padding: 10% 5% 10% 5%;
+  color: #e0ddcf;
 }
