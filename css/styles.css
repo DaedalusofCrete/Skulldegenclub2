@@ -361,3 +361,32 @@ h2 {
 .carousel-button {
   margin: 0 auto;
 }
+
+
+/* Tezos-Links-Section */
+
+#tezos-links{
+  background-color: #383f48;
+}
+
+.spicyswap-header{
+color: #dcdcdc;
+}
+
+.img-container{
+  position: relative;
+  left: 10%;
+}
+
+.skull4nft-img{
+width: 60%;
+padding: 5% 0 10% 0;
+border-radius: 100%;
+}
+
+.spicyswap-description{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+padding: 10% 5% 10% 5%;
+color: #e0ddcf;
+}
