@@ -374,12 +374,13 @@ h2 {
 .img-container {
   position: relative;
   left: 10%;
+  padding: 5% 0 10% 0;
 }
 
 .skull4nft-img {
   width: 60%;
-  padding: 5% 0 10% 0;
-  border-radius: 100%;
+
+  border: solid 5px #000;
 }
 
 .spicyswap-description {
