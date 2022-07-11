@@ -125,6 +125,8 @@ h2 {
   font-size: 4rem;
   font-family: 'Splash', cursive;
   padding: 5% 10% 0 10%;
+   text-transform: full-width;
+
 }
 
 @media (max-width:400px) {
