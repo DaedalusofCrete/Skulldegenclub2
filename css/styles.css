@@ -1,401 +1,188 @@
 body {
-  background-color: #dcdcdc;
-  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-weight: bold;
 }
 
 button {
-  margin: 3rem 0 0 10rem;
+  margin: .25rem;
 }
 
-h3 {
-  color: #e0ddcf;
-  font-weight: bold;
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
 }
 
-h2 {
-  font-family: 'MedievalSharp', cursive;
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
   color: #fff;
-  font-weight: bold;
-  font-size: 5rem;
-  text-align: center;
-  margin-bottom: 2rem
 }
 
-/* Navbar */
+.white-section {
+  color: #fff;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navlink {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
 .nav-item {
-  padding: 0 1%;
+  padding: 0 10px;
 }
 
-/* Title Section */
-#title-section {
-  background-color: black;
+/* Title-Section */
+#title .container-fluid {
+  /*NEED SPACE BETWEEN ELEMENTS FOR THIS TO WORK*/
+  padding: 3% 15% 7%;
+  text-align: left;
 }
 
-.title-item {
-  padding: 10% 5%;
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0
 }
 
-.skull-mountain {
-  width: 100%;
-  padding: 15% 5% 0 0;
-}
-
-.title-header {
-  font-family: 'MedievalSharp', cursive;
-  color: #fff;
-  font-weight: bold;
-  font-size: 5rem;
-  text-align: center;
-  margin-bottom: 2rem
-}
-
-.title-paragraph {
+.button {
   font-family: 'Ubuntu', sans-serif;
-  text-align: center;
-  color: #dcdcdc;
-  font-size: 2rem;
 }
 
-.discord-button {
-  font-family: 'MedievalSharp', cursive;
-  margin: 3rem 0 0 10rem;
+/* title-image */
+.title-image {
+  transform: rotate(25deg);
+  width: 25%;
+  position: absolute;
+  right: 20%;
 }
 
-.discord-button:hover {
-  color: #7f0704;
+.title-section-text {
+  padding: 0 10% 0 5%;
+  margin: 0;
 }
 
-/* Attributes */
-#attributes {
-  background-color: #400106;
-  padding: 7% 10%;
+/* Features */
+#features {
+  position: relative;
+  z-index: 1;
 }
 
-.attribute-text {
-  color: #dcdcdc;
-  text-align: center;
-  padding: 5%;
+.feature-title {
+  font-size: 1.5rem;
+  line-height: 1.5
 }
 
-.attribute-discription {
-  color: #474448;
+.feature-text {
+  padding: 5%
 }
 
-.attribute-icon {
-  color: white;
+.feature-icon {
+  /* font-size: 2.5rem; */
+  color: #ef8172;
   margin-bottom: 1rem;
 }
 
-.attribute-icon:hover {
-  color: #015154
+.feature-icon:hover {
+  color: #ff4c68;
 }
 
-/* Copyright */
-#copyright {
-  color: #fff;
-  padding-top: 2%;
-  background-color: #2a0b0b;
-}
-
-.copyright {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 1rem;
-  text-align: center;
-}
-
-/* SKULL4NFTPAGE */
-/* Skull4nft title */
-#skull4nfttitle {
-  background-color: #000;
-  padding: 3% 0%;
-}
-
-.skull4nftdescription {
-  font-family: 'Ubuntu', sans-serif;
-  text-align: center;
-  color: #dcdcdc;
-  font-size: 2rem;
-  padding: 0 5% 2%;
-}
-
-/* Daedalus section */
-.daedalus-title {
-  color: #a80311;
+.feature-description {
+  color: #8f8f8f;
+  font-family: "Montserrat";
   font-weight: bold;
-  font-size: 4rem;
-  font-family: 'Splash', cursive;
-  padding: 5% 10% 0 10%;
-   text-transform: full-width;
-
 }
 
-@media (max-width:400px) {
-  .daedalus-title{
-    font-size: 2rem;
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing-Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA= Call to Action Section */
+/* Footer Section */
+#footer {}
+
+p {
+  color: grey;
+  font-family: "Ubuntu";
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Media Query: CSS native  */
+/* @media (max-width:1028px) {
+  #title {
+    text-align: center;
+  } */
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
   }
 }
-
-.deadlus-title-block {
-  text-align: center;
-}
-
-.daedalus-title:hover {
-  color: #000;
-}
-
-.daedalus-twitter {
-  font-size: .75rem;
-  font-family: 'Ubuntu', sans-serif;
-  margin-top: 0;
-}
-
-.daedalus-twitter:hover {
-  color: #000;
-}
-
-.daedalus-twitter:link {
-  color: #1e1c1d;
-}
-
-.daedalus-twitter:visited {
-  color: grey;
-}
-
-#daedalus-artist {
-  background-color: #383f48;
-}
-
-.artist-description {
-  font-size: 1.5rem;
-  color: #fff;
-  text-align: center;
-  font-family: 'Ubuntu', sans-serif;
-  padding: 5% 5%;
-  margin: auto 10%;
-}
-
-.deadalus-row {
-  text-align: center;
-}
-
-.deadlus-art {
-  width: 50%;
-  padding: 10% 0;
-}
-
-.carousel-button {
-  margin: 0 auto;
-}
-
-/* ENKY section */
-.enky-title {
-  color: #3e07b5;
-  font-weight: bold;
-  font-size: 5rem;
-  font-family: 'Rubik Moonrocks', cursive;
-  padding: 5% 10% 0 10%;
-}
-
-.enky-title-block {
-  text-align: center;
-}
-
-.enky-title:hover {
-  color: #a80311;
-}
-
-.enky-twitter {
-  font-size: .75rem;
-  font-family: 'Ubuntu', sans-serif;
-  margin-top: 0;
-}
-
-.enky-twitter:hover {
-  color: #a80311;
-}
-
-.enky-twitter:link {
-  color: #1e1c1d;
-}
-
-.enky-twitter:visited {
-  color: grey;
-}
-
-#enky-artist {
-  background-color: #000;
-}
-
-.artist-description {
-  font-size: 1.5rem;
-  color: #fff;
-  text-align: center;
-  font-family: 'Ubuntu', sans-serif;
-  padding: 5% 5%;
-  margin: auto 10%;
-}
-
-.enky-row {
-  text-align: center;
-}
-
-.enky-art {
-  width: 50%;
-  padding: 10% 0 5% 0;
-}
-
-.carousel-button {
-  margin: 0 auto;
-}
-
-/* David section */
-.david-title {
-  color: #a80311;
-  font-weight: bold;
-  font-size: 5rem;
-  font-family: 'The Nautigal', cursive;
-  padding: 5% 10% 0 10%;
-}
-
-.david-title-block {
-  text-align: center;
-}
-
-.david-title:hover {
-  color: #000;
-}
-
-.david-twitter {
-  font-size: .75rem;
-  font-family: 'Ubuntu', sans-serif;
-  margin-top: 0;
-}
-
-.david-twitter:hover {
-  color: #a80311;
-}
-
-.david-twitter:link {
-  color: #1e1c1d;
-}
-
-.david-twitter:visited {
-  color: grey;
-}
-
-#david-artist {
-  background-color: #383f48;
-}
-
-.david-description {
-  font-size: 1.5rem;
-  color: #fff;
-  text-align: center;
-  font-family: 'Ubuntu', sans-serif;
-  padding: 5% 5%;
-  margin: auto 10%;
-}
-
-.david-row {
-  text-align: center;
-}
-
-.david-art {
-  width: 50%;
-  padding: 20% 0 5% 0
-}
-
-.carousel-button {
-  margin: 0 auto;
-}
-
-/* Philly section */
-.philly-title {
-  color: #3e07b5;
-  font-weight: bold;
-  font-size: 5rem;
-  font-family: 'Kenia', cursive;
-  padding: 5% 10% 0 10%;
-}
-
-.philly-title-block {
-  text-align: center;
-}
-
-.philly-title:hover {
-  color: #a80311;
-}
-
-.philly-twitter {
-  font-size: .75rem;
-  font-family: 'Ubuntu', sans-serif;
-  margin-top: 0;
-}
-
-.philly-twitter:hover {
-  color: #a80311;
-}
-
-.enky-twitter:link {
-  color: #1e1c1d;
-}
-
-.philly-twitter:visited {
-  color: grey;
-}
-
-#philly-artist {
-  background-color: #000;
-}
-
-.artist-description {
-  font-size: 1.5rem;
-  color: #fff;
-  text-align: center;
-  font-family: 'Ubuntu', sans-serif;
-  padding: 5% 5%;
-  margin: auto 10%;
-}
-
-.philly-row {
-  text-align: center;
-}
-
-.philly-art {
-  width: 50%;
-  padding: 15% 0 5% 0;
-}
-
-.carousel-button {
-  margin: 0 auto;
-}
-
-/* Tezos-Links-Section */
-#tezos-links {
-  background-color: #383f48;
-}
-
-.spicyswap-header {
-  color: #dcdcdc;
-}
-
-.img-container {
-  position: relative;
-  left: 10%;
-  padding: 5% 0 10% 0;
-}
-
-.skull4nft-img {
-  width: 60%;
-
-  border: solid 5px #000;
-}
-
-.spicyswap-description {
-  text-align: center;
-  font-family: 'Ubuntu', sans-serif;
-  padding: 10% 5% 10% 5%;
-  color: #e0ddcf;
-}
-
-
