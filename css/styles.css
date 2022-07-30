@@ -130,11 +130,11 @@ h2 {
 
 }
 
-/* @media (max-width:700px) {
+@media (max-width:700px) {
   .daedalus-title{
     font-size: 2rem;
   }
-} */
+}
 .deadlus-title-block {
   text-align: center;
 }
@@ -369,6 +369,71 @@ h2 {
 .carousel-button {
   margin: 0 auto;
 }
+
+/* Numa section */
+.numa-title {
+  color: #F7C1BB;
+  font-weight: bold;
+  font-size: 5rem;
+  font-family: 'Niconne', cursive;
+  padding: 5% 10% 0 10%;
+}
+
+.numa-title-block {
+  text-align: center;
+}
+
+.numa-title:hover {
+  color: #885A5A;
+}
+
+.numa-twitter {
+  font-size: .75rem;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 0;
+}
+
+.numa-twitter:hover {
+  color: #885A5A;
+}
+
+.numa-twitter:link {
+  color: #1e1c1d;
+}
+
+.numa-twitter:visited {
+  color: grey;
+}
+
+#numa-artist {
+  background-color: #383f48;
+}
+
+.artist-description {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 5% 5%;
+  margin: auto 10%;
+}
+
+.numa-row {
+  text-align: center;
+}
+
+.numa-art {
+  width: 50%;
+  padding: 15% 0 5% 0;
+}
+
+.carousel-button {
+  margin: 0 auto;
+}
+
+
+
+
 
 /* Tezos-Links-Section */
 #tezos-links {
