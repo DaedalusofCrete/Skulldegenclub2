@@ -432,8 +432,46 @@ h2 {
 }
 
 
+/* MarketPlace */
 
+.container-dice{
+  width: 80%;
+  margin: auto;
+  text-align: center;
 
+}
+
+.dice {
+  width:50%;
+  text-align: center;
+  display: inline-block;
+  margin: 0 0 5% 0;
+  float:left;
+  background-color: #534C52;
+
+}
+
+.diceh2{
+  color: #a80311
+}
+/* .h1-dice {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+} */
+
+.dice-p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+#diceimg {
+  width: 80%;
+  margin: 5%;
+}
 
 /* Tezos-Links-Section */
 #tezos-links {
